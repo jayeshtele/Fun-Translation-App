@@ -26,7 +26,7 @@ body{
 .bottom{
     margin-top: 6em;
     background: var(--primary);
-    padding: 15px 0 4px 0;
+    padding: 15px;
 }
 .btn{
     background:var(--primary);
