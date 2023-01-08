@@ -30,6 +30,7 @@ body{
 }
 .btn{
     background:var(--primary);
+    color: black;
 }
 h1,h3,p,textarea,div,label,button{
     letter-spacing: 1px;
