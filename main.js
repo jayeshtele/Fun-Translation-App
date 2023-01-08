@@ -17,10 +17,14 @@ btn.addEventListener("click", () => {
             .then(value => {
                 output.innerText = value.contents.translated
             })
-            .catch(err => console.log("Found error while fetching the URL which is " + err));
+            .catch(err =>{
+                output.style.color = "red"
+                output.innerText = "Too Many Requests: Rate limit of 5 requests per hour exceeded. Please wait for 23 minutes and 11 seconds."
+            });
 
     }
     getTranslate();
 
+    output.innerText = ""
     input.value = "";
 })
