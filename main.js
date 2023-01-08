@@ -12,7 +12,7 @@ btn.addEventListener("click", () => {
 
     function getTranslate() {
 
-        fetch("https://api.funtranslations.com/translate/dothraki.json" + "?" + "text=" + task)
+        fetch("https://api.funtranslations.com/translate/minion.json" + "?" + "text=" + task)
             .then(response => response.json())
             .then(value => {
                 output.innerText = value.contents.translated
