@@ -10,4 +10,6 @@ btn.addEventListener("click", ()=>{
     const task = input.value;
     output.innerText = task
     input.value = "";
+
+    
 })
