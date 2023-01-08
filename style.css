@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+body{
+    overflow-x: hidden;
 }
 :root{
     font-size: 16px;
@@ -11,5 +15,22 @@
     --width-break: 600px;
 }
 .top{
-
+    background: var(--primary);
+    padding: 1em;
+}
+.output{
+    border: 1px solid black;
+    height: 15vh;
+    overflow: scroll;
+}
+.bottom{
+    margin-top: 6em;
+    background: var(--primary);
+    padding: 15px 0 4px 0;
+}
+.btn{
+    background:var(--primary);
+}
+h1,h3,p,textarea,div,label,button{
+    letter-spacing: 1px;
 }
